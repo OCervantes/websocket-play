@@ -75,7 +75,7 @@ A continuación se listan algunos **plugins** utilizados en este proyecto, que n
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
 
-Ahora que hemos analizado y comprendido la estructura de la aplicación
+Ahora que hemos analizado y comprendido la estructura de la aplicación es momento de implementar los webSockets en la aplicación.
 
 # <a name="limpieza"></a> Actividad 3 - Limpieza
 En el desarrollo de aplicaciones Web es importante mantener un estilo al programar, por esto deberás:
