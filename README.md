@@ -65,7 +65,7 @@ Ahora que has observado las características de la aplicación, explica el resul
   - **Identificar** el Cliente y explicar su objetivo.
   - **Identificar** el Servidor y explicar su objetivo.
 
-Algunos **plugins** utilizados en este proyecto, que no son explotados en su totalidad pero son interesantes de analizar y considerar para futuros desarrollos:
+A continuación se listan algunos **plugins** utilizados en este proyecto, que no son explotados en su totalidad pero son interesantes de analizar y considerar para futuros desarrollos:
 
 - **Coffee Script** es un lenguaje que compila a **JavaScript** utilizando un precompilador, es decir, antes de compilar la aplicación un precompilador compila los archivos .coffee y devuelve un **JavaScript**. Coffee Script permite agregar características que serían difíciles de implementar en JavaScript, dichas características están inspiradas en Ruby, Python y Haskell.
 
@@ -74,6 +74,8 @@ Algunos **plugins** utilizados en este proyecto, que no son explotados en su tot
 - **Bootstrap** es un framework para el front-end, es una colección de herramientas para desarrollar sitios Web responsivos (tanto para dispositivos móviles como para escritorio). Bootstrap incluye templates en HTML y CSS para agregar componentes, como botones, formularios, tipografías y componentes de navegación que pueden utilizarse instantáneamente.
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
+
+Ahora que hemos analizado y comprendido la estructura de la aplicación
 
 # <a name="limpieza"></a> Actividad 3 - Limpieza
 En el desarrollo de aplicaciones Web es importante mantener un estilo al programar, por esto deberás:
