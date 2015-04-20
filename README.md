@@ -49,6 +49,10 @@ La **aplicación** muestra una simple sesión de **chat anónimo**, si abres otr
 La **aplicación** se encuentra desarrollada en Scala y JavaScript. A continuación se muestra un diagrama con la estructura del proyecto:
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/estructureApp.png">
+
+Como se observa la naturaleza de Play Framework nos permite mantener un orden en la
+estructura de la aplicación. El uso del patrón Modelo Vista Controlador es muy clara.
+
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
