@@ -48,6 +48,8 @@ La aplicación muestra una simple sesión de **chat anónimo**, si abres otro na
 
 La aplicación se encuentra desarrollada en Scala y JavaScript. A continuación se muestran un diagrama con su estructura:
 
+<img src="http://www.innova4d.mx/wp-content/uploads/2015/04/estructureApp.png">
+
 
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
