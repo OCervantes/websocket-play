@@ -3,7 +3,6 @@ package controllers
 import scala.Left
 import scala.Right
 import scala.concurrent.Future
-
 import actors.UserActor
 import play.api.Logger
 import play.api.Play.current

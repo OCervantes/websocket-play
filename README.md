@@ -44,6 +44,12 @@ Los **WebSockets** utilizan un único canal de comunicación bidireaccinal en do
 
 La aplicación muestra una simple sesión de **chat anónimo**, si abres otro navegador ó una sesión anónima en **Google Chrome** deberías observar una segunda sesión.
 
+### Estructura de la Aplicación
+
+La aplicación se encuentra desarrollada en Scala y JavaScript. A continuación se muestran un diagrama con su estructura:
+
+
+
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
 
 Ahora que ya saben implementar un servicio Web y algunos conceptos básicos de **HTML y CSS** en la actividad 2 vamos a implementar un **Mashup**. Un **Mashup** es un conjunto de servicios, ya sean propios o de terceros que se unen para crear una aplicación completamente diferentes, algunos servicios de terceros pueden son ofrecidos por **Flickr, Wikipedia, WeatherReport, Google Maps**, etc.
