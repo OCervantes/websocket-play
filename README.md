@@ -51,8 +51,8 @@ La **aplicación** se encuentra desarrollada en Scala y JavaScript. A continuaci
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/estructureApp.png">
 
 Como se observa, la naturaleza de **Play Framework** nos permite mantener un orden en la
-estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es muy clara, puesto que Play separa las características de la vista (HTML, CSS), de la implementación de la
-lógica de los WebSockets.
+estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es muy clara, puesto que Play separa las características de la **vista** (HTML, CSS), de la implementación de la
+lógica de los **WebSockets**.
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
 
