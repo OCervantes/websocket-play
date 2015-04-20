@@ -56,6 +56,11 @@ estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
 
+Ahora que has observado las características de la aplicación, explica el resultado de tu análisis ampliamente en tu reporte.
+
+- **Analizar** la estructura del proyecto en Play Framework.
+- **Analizar** la arquitectura Cliente-Servidor del proyecto.
+
 Algunos **plugins** utilizados en este proyecto, que no son explotados en su totalidad pero son interesantes de analizar y considerar para futuros desarrollos:
 
 - **Coffee Script** es un lenguaje que compila a **JavaScript** utilizando un precompilador, es decir, antes de compilar la aplicación un precompilador compila los archivos .coffee y devuelve un **JavaScript**. Coffee Script permite agregar características que serían difíciles de implementar en JavaScript, dichas características están inspiradas en Ruby, Python y Haskell.
@@ -65,59 +70,6 @@ Algunos **plugins** utilizados en este proyecto, que no son explotados en su tot
 - **Bootstrap** es un framework para el front-end, es una colección de herramientas para desarrollar sitios Web responsivos (tanto para dispositivos móviles como para escritorio). Bootstrap incluye templates en HTML y CSS para agregar componentes, como botones, formularios, tipografías y componentes de navegación que pueden utilizarse instantáneamente.
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
-
-Ahora que ya saben implementar un servicio Web y algunos conceptos básicos de **HTML y CSS** en la actividad 2 vamos a implementar un **Mashup**. Un **Mashup** es un conjunto de servicios, ya sean propios o de terceros que se unen para crear una aplicación completamente diferentes, algunos servicios de terceros pueden son ofrecidos por **Flickr, Wikipedia, WeatherReport, Google Maps**, etc.
-
-Vamos a generar una aplicación que utilice todos estos servicios. Nuestra aplicación será una **WebApp** que permitirá ofrecer información sobre un país a las personas de negocios. Para esto ofreceremos un pequeño parrafo introductorio con la información del país **(Wikipedia)**, un pequeño mapa con la ubicación de la embajada **(Google Maps)**, el clima en la capital del país **(OpenWeather)**, una serie de fotografías relacionadas al país **(Flickr)**. Para esta actividad vamos a desarrollar una nueva vista, para esto es deberás seguir las siguientes instrucciones:
-- **Cambiar** el nombre del archivo **main.scala.html** a **main.scala(act1).html**
-- **Crear** un nuevo archivo **main.scala.html**
-  - (Si están en **Atom**, pueden dar click derecho y seleccionar New file, ó pueden duplicar el anterior **main.scala.html**),
-- **Copiar** el contenido del archivo **main.scala(2).html** que se encuentra **dentro de este repositorio** a **main.scala.html** del proyecto de Play.
-
-En esta actividad vamos a **separar asuntos**, es decir, vamos a utilizar **CSS** para manejar únicamente el estilo, **HTML** para crear los elementos y **JavaScript** para implementar la lógica de la aplicación. Para hacer más claro el uso de *[Separation of concerns](http://en.wikipedia.org/wiki/Separation_of_concerns)* vamos a utilizar de la carpeta **public** de Play. La carpeta **public** es un directorio en donde el contenido es accesible por cualquiera que tenga acceso al servidor, es un lugar ideal para agregar imágenes que deseemos mostrar en la aplicación, código JavaScript y hojas de estilo CSS, ahora deberás:
-- **Copiar** el contenido de la hoja de estilo **main(2).css** que se encuentra en este repositorio y pegar el contenido dentro de **public/stylesheets/main.css**
-
-- **Analizar** el código, la principal diferencia en estos nuevos servicios es la integración de **API** de terceros, en algunos casos, como en la **API** de **Wikipedia** por cuestiones de seguridad se utiliza **JSONP**. Es por esto que al utilizar una API de un tercero es importante conocer la documentación. La **API** mas extensa es la API de **Flickr**, a continuación se presentan enlaces a la documentación así como definiciones de algunos conceptos presentes en esta aplicación:
-
-  - **API** es el conjunto de subrutinas, funciones y procedimientos que ofrece cierta biblioteca para ser utilizado por otro software como una capa de abstracción. Son usadas generalmente en las bibliotecas.
-
-  - **JSON**, acrónimo de JavaScript Object Notation, es un formato ligero para el intercambio de datos. JSON es un subconjunto de la notación literal de objetos de JavaScript que no requiere el uso de XML.
-
-  - **JSONP** es una técnica de comunicación utilizada en los programas JavaScript para realizar llamadas asíncronas a dominios diferentes. JSONP es un método concebido para suplir la limitación de AJAX entre dominios, que únicamente permite realizar peticiones a páginas que se encuentran bajo el mismo dominio y puerto por razones de seguridad.
-
-  - **AJAX**, acrónimo de Asynchronous JavaScript And XML (JavaScript asíncrono y XML), es una técnica de desarrollo web para crear aplicaciones interactivas. Estas aplicaciones se ejecutan en el cliente, es decir, en el navegador de los usuarios mientras se mantiene la comunicación asíncrona con el servidor en segundo plano.
-
-  - **Access-Control-Allow-Origin** Es un mecanismo que por cuestiones de seguridad permite o niega que varios recursos en un sitio web puedan ser solicitados desde otro dominio fuera del domino en donde la llamada fue solicitada.
-
-### Documentación:
-
-  - Documentación [Flickr](https://www.flickr.com/services/api/flickr.photos.search.html)
-  - Documentación [Wikipedia](https://www.mediawiki.org/wiki/API:Main_page)
-  - Documentación [OpenWeather](http://openweathermap.org/api)
-  - Documentación [GoogleMaps](https://developers.google.com/maps/documentation/javascript/)
-
-### Actividad:
-
-En el documento **main.scala(2).html** de este repositorio se encuentra un Mashup en donde se han implementado algunos **servicios Web** desarrollados por terceros, **Google**, **Flickr**, **OpenWeather**, etc. El objetivo de la práctica es integrar los  servicios Web que ya desarrollaste en esta aplicación:
-
-  - Utilizando **los servicios Web** previamente desarrollados en la actividad anterior, la nueva aplicación deberá:
-    - **Mostrar** la capital al lado del país.
-
-    <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/capital.png" width="50%" height="50%">  
-
-    - **Mostrar** en el mapa la ubicación de la embajada.
-    <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/mapWS.png" width="75%" height="75%">  
-
-    - **Mostrar** la temperatura en grados Celsius.
-
-    <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/tempServ.png" width="75%" height="75%">  
-
-    - **Mostrar** fotografías cercanas a la embajada mexicana para cada país.
-      - **Revisar** la [documentación de Flickr](https://www.flickr.com/services/api/flickr.photos.search.html) para implementar la API utilizando latitud y longitud (Geolocalización).
-
-    <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/flickrPhotos.png" width="75%" height="75%">  
-
-    - **Explicar** ampliamente en el reporte los pasos seguidos para integrar los servicios.
 
 # <a name="limpieza"></a> Actividad 3 - Limpieza
 En el desarrollo de aplicaciones Web es importante mantener un estilo al programar, por esto deberás:
