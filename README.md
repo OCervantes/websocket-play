@@ -55,11 +55,13 @@ estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
 
-Algunos **plugins** utilizados en este proyecto:
+Algunos **plugins** utilizados en este proyecto, que no son explotados en su totalidad pero son interesantes de analizar y considerar para futuros desarrollos:
 
-- **Coffee Script** es un lenguaje que compila a JavaScript utilizando un precompilador, es decir antes compilar la aplicación un precompilador compila los archivos .coffee y devulve un JavaScript. Coffee Script permite agregar otras características al lenguaje JavaScript, inspiradas en Ruby, Python y Haskell.
+- **Coffee Script** es un lenguaje que compila a **JavaScript** utilizando un precompilador, es decir, antes de compilar la aplicación un precompilador compila los archivos .coffee y devuelve un **JavaScript**. Coffee Script permite agregar características que serían difíciles de implementar en JavaScript, dichas características están inspiradas en Ruby, Python y Haskell.
 
-- **Less** es un lenguaje que agrega muchas características a CSS, como el uso de variables, funciones operadores, etc. Less permite agregar dinamismo al desarrollo de código CSS.
+- **Less** es un lenguaje que compila a CSS utilizando un precompilador. Less agrega muchas características a CSS, como el uso de variables, funciones, operadores, entro otros. Less permite agregar dinamismo al desarrollo de código CSS, permite la reutilización de código y agrega un poco de orden al código CSS.
+
+- **BootStrap**
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
 
