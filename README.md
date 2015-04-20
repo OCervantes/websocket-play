@@ -32,6 +32,7 @@ $ git clone https://github.com/Innova4DLab/websocket-play.git
 $ activator run
 ```
 - **Abrir** el navegador en: https://github.com/Innova4DLab/websocket-play
+  - Por el momento deberías ver errores en la aplicación, puesto que se encuentra incompleta, continua la actividad para resolver estos problemas.
 - **Abrir** la carpeta del proyecto en un editor de su preferencia.
 
 # <a name="analisis"></a>Actividad 1 - Análisis
@@ -51,7 +52,7 @@ La **aplicación** se encuentra desarrollada en Scala y JavaScript. A continuaci
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/estructureApp.png">
 
 La naturaleza de **Play Framework** nos permite mantener un orden en la
-estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es muy claro, puesto que Play separa las características de la **vista** (HTML, CSS), de la implementación de  los **WebSockets**. Cabe mencionar que debido a la naturaleza de Play para desarrollar métodos REST a partir del controlador es muy fácil desarrollar servicios como WebSocket. A continuación se muestra la arquitectura de la aplicación.
+estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es muy claro, puesto que Play separa las características de la **vista** (HTML, CSS), de la implementación de  los **WebSockets**. Cabe mencionar que debido a la naturaleza de Play para desarrollar fácilmente métodos REST a partir del controlador es muy fácil desarrollar servicios como WebSocket. A continuación se muestra la arquitectura de la aplicación.
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
 
