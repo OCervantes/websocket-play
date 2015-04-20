@@ -59,12 +59,12 @@ estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es
 Ahora que has observado las características de la aplicación, explica el resultado de tu análisis ampliamente en tu reporte.
 
 - **Analizar** la estructura del proyecto en Play Framework.
-  - ¿Cuál es el objetivo de la carpeta App?
-  - ¿Cuál es el objetivo del patrón Modelo Vista Controlador?
+  - ¿Cuál es el objetivo de la carpeta **App**?
+  - ¿Cuál es el objetivo del patrón **Modelo Vista Controlador**?
 - **Analizar** la arquitectura Cliente-Servidor del proyecto.
-  - Identificar el Cliente y explicar su objetivo.
-  - Identificar el Servidor y explicar su objetivo.
-  
+  - **Identificar** el Cliente y explicar su objetivo.
+  - **Identificar** el Servidor y explicar su objetivo.
+
 Algunos **plugins** utilizados en este proyecto, que no son explotados en su totalidad pero son interesantes de analizar y considerar para futuros desarrollos:
 
 - **Coffee Script** es un lenguaje que compila a **JavaScript** utilizando un precompilador, es decir, antes de compilar la aplicación un precompilador compila los archivos .coffee y devuelve un **JavaScript**. Coffee Script permite agregar características que serían difíciles de implementar en JavaScript, dichas características están inspiradas en Ruby, Python y Haskell.
