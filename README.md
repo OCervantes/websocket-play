@@ -56,6 +56,10 @@ lógica de los **WebSockets**.
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
 
+Algunos **plugins** utilizados en este proyecto:
+
+- **Coffee Script** es un lenguaje que compila a JavaScript utilizando un precompilador, es decir antes compilar la aplicación un precompilador compila los archivos .coffee y devulve un JavaScript. Coffee Script permite agregar otras características al lenguaje JavaScript, inspiradas en Ruby, Python y Haskell.
+
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
 
 Ahora que ya saben implementar un servicio Web y algunos conceptos básicos de **HTML y CSS** en la actividad 2 vamos a implementar un **Mashup**. Un **Mashup** es un conjunto de servicios, ya sean propios o de terceros que se unen para crear una aplicación completamente diferentes, algunos servicios de terceros pueden son ofrecidos por **Flickr, Wikipedia, WeatherReport, Google Maps**, etc.
@@ -120,10 +124,6 @@ En el desarrollo de aplicaciones Web es importante mantener un estilo al program
 - **Revisar** el código para detectar usos inadecuados de variables ó errores al escribir.
 
 Recordando que el estilo debe ser siguiendo las guías de [Google](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml) para **JavaScript**.
-
-Algunos **plugins** utilizados en este proyecto:
-
-- **Coffee Script** es un lenguaje que compila a JavaScript utilizando un precompilador, es decir antes compilar la aplicación un precompilador compila los archivos .coffee y devulve un JavaScript. Coffee Script permite agregar otras características al lenguaje JavaScript, inspiradas en Ruby, Python y Haskell.
 
 # <a name="preguntas"></a>Actividad 4 - Preguntas
 
