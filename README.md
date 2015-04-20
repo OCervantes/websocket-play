@@ -50,8 +50,8 @@ La **aplicación** se encuentra desarrollada en Scala y JavaScript. A continuaci
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/estructureApp.png">
 
-Como se observa, la naturaleza de **Play Framework** nos permite mantener un orden en la
-estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es muy clara, puesto que Play separa las características de la **vista** (HTML, CSS), de la implementación de la lógica de los **WebSockets**. A continuación se muestra la arquitectura de la aplicación.
+La naturaleza de **Play Framework** nos permite mantener un orden en la
+estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es muy claro, puesto que Play separa las características de la **vista** (HTML, CSS), de la implementación de  los **WebSockets**. Cabe mencionar que debido a la naturaleza de Play para desarrollar métodos REST a partir del controlador es muy fácil desarrollar servicios como WebSocket. A continuación se muestra la arquitectura de la aplicación.
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
 
@@ -61,7 +61,7 @@ Algunos **plugins** utilizados en este proyecto, que no son explotados en su tot
 
 - **Less** es un lenguaje que compila a CSS utilizando un precompilador. Less agrega muchas características a CSS, como el uso de variables, funciones, operadores, entro otros. Less permite agregar dinamismo al desarrollo de código CSS, permite la reutilización de código y agrega un poco de orden al código CSS.
 
-- **BootStrap** es un framework para el front-end, es una colección de herramientas para desarrollar sitios Web responsivos (tanto para dispositivos móviles como para escritorio). Bootstrap incluye templates en HTML y CSS para agregar componentes, como botones, formularios, tipografías y componentes de navegación que pueden utilizarse instantáneamente.
+- **Bootstrap** es un framework para el front-end, es una colección de herramientas para desarrollar sitios Web responsivos (tanto para dispositivos móviles como para escritorio). Bootstrap incluye templates en HTML y CSS para agregar componentes, como botones, formularios, tipografías y componentes de navegación que pueden utilizarse instantáneamente.
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
 
