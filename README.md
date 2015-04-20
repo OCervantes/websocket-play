@@ -6,7 +6,7 @@
 - **[Antes de comenzar](#antesde)**
 - [Herramientas sugeridas](#herramientas)
 - [Instalación](#instalacion)
-- **[Actividad 1 - Análisis Web](#analisis)**
+- **[Actividad 1 - Análisis](#analisis)**
 - **[Actividad 2 - Desarrollo](#desarrollo)**
 - **[Actividad 3 - Limpieza](#limpieza)**
 - **[Actividad 4 - Preguntas](#preguntas)**
@@ -34,7 +34,7 @@ $ activator run
 - **Abrir** el navegador en https://github.com/Innova4DLab/websocket-play
 - **Abrir** la carpeta del proyecto en un editor de su preferencia.
 
-# <a name="analisis"></a>Actividad 1 - Llamando Servicios Web
+# <a name="analisis"></a>Actividad 1 - Análisis
 
 WebSocket es un protocolo que provee canales de  comunicación bidereccional sobre una conexión TCP única. Desde el 2011 protocolo es un estándar y la API Web está en proceso de estandarizarse por la W3C.
 
