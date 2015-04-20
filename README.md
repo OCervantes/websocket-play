@@ -1,6 +1,6 @@
-# Websocket-Play
+# WebSocket-Play
 
->Esta es una simple aplicación que implementa un chat anónimo, utilizando websockets, además se ilustra el uso de actores con Akka y Play Framework.
+>Esta es una simple aplicación que implementa un chat anónimo, utilizando webSockets, además se ilustra el uso de actores con Akka y Play Framework.
 
 # Contenido
 - **[Antes de comenzar](#antesde)**
@@ -21,9 +21,22 @@
 
 ### <a name="instalacion"></a>Instalación:
 
-Para esta actividad se trabajará con la aplicación desarrollada previamente en Play, en la práctica [**Play-WebService**](https://github.com/Innova4DLab/Play-WebService)
+La actividad se encuentra en este repositorio por lo que deberás clonar este repositorio en tu computadora.   
+
+- Clonar el proyecto mediante:
+```Bash
+$ git clone https://github.com/Innova4DLab/websocket-play.git
+```
+- Ejecutar el proyecto con:
+```Bash
+$ activator run
+```
+- Abrir el navegador en https://github.com/Innova4DLab/websocket-play
+- Abrir la carpeta del proyecto en un editor de su preferencia.
 
 # <a name="analisis"></a>Actividad 1 - Llamando Servicios Web
+
+WebSocket es un protocolo que provee canales de  comunicación bidereccional sobre una conexión TCP única. Desde el 2011 protocolo es un estándar y la API Web está en proceso de estandarizarse por la W3C.
 
 El objetivo de la práctica es implementar los servicios Web previamente desarrollados en la práctica [**Play-WebService**](https://github.com/Innova4DLab/Play-WebService) en una vista implementada en **Play**, utilizando **JavaScript**.
 
