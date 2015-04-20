@@ -21,18 +21,18 @@
 
 ### <a name="instalacion"></a>Instalación:
 
-La actividad se encuentra en este repositorio por lo que deberás clonar este repositorio en tu computadora.   
+La actividad se encuentra **en este repositorio** por lo que deberás **clonar** este repositorio en tu computadora.
 
-- Clonar el proyecto mediante:
+- **Clonar** el proyecto mediante:
 ```Bash
 $ git clone https://github.com/Innova4DLab/websocket-play.git
 ```
-- Ejecutar el proyecto con:
+- **Ejecutar** el proyecto con:
 ```Bash
 $ activator run
 ```
-- Abrir el navegador en https://github.com/Innova4DLab/websocket-play
-- Abrir la carpeta del proyecto en un editor de su preferencia.
+- **Abrir** el navegador en https://github.com/Innova4DLab/websocket-play
+- **Abrir** la carpeta del proyecto en un editor de su preferencia.
 
 # <a name="analisis"></a>Actividad 1 - Llamando Servicios Web
 
