@@ -17,7 +17,7 @@
 - **Eclipse**, **IntelliJ** u otro editor como <a href="https://atom.io/">(Atom)</a>.
 - Si utilizan Mac es recomendable usar <a href="http://brew.sh/">**Homebrew**</a>.
 - **JDK 6** ó superior.
-- Conocimientos de Javascript, HTML, CSS.
+- Conocimientos de **Javascript**.
 
 ### <a name="instalacion"></a>Instalación:
 
