@@ -36,70 +36,15 @@ $ activator run
 
 # <a name="analisis"></a>Actividad 1 - Análisis
 
-**WebSocket** es un protocolo que provee canales de  comunicación bidireccional sobre una conexión TCP única. Desde el 2011 protocolo es un estándar y la API Web está en proceso de estandarizarse por la W3C.
+**WebSocket** es un protocolo que provee canales de  comunicación bidireccional sobre una conexión TCP única. Desde el 2011 el protocolo es un estándar y la API Web está en proceso de estandarizarse por la W3C.
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/httpsocket.png"/>
 
-El objetivo de la práctica es implementar los servicios Web previamente desarrollados en la práctica [**Play-WebService**](https://github.com/Innova4DLab/Play-WebService) en una vista implementada en **Play**, utilizando **JavaScript**.
+Los **WebSockets** utilizan un único canal de comunicación bidireaccinal en donde se asegura una alta velocidad de intercambio de datos en demanda.
 
-Existen diversas formas de llamar servicios Web, una de ellas es utilizando llamadas asíncronas al servidor utilizando **Ajax** *(Asynchronous Javascript and XML)*, éstas llamadas son muy fáciles de implementar utilizando la librería **jQuery**.
+La aplicación muestra una simple sesión de **chat anónimo**, si abres otro navegador ó una sesión anónima en **Google Chrome** deberías observar una segunda sesión.
 
-- Para comenzar, **Iniciar** el servidor de **Play Framework** en la terminal, navegando a la carpeta donde se encuentra el proyecto de la práctica [**Play-WebService**](https://github.com/Innova4DLab/Play-WebService)  y escribir:
-
-```Bash
-$ cd play-java-rest
-$ activator run
-```
-- Como en la práctica anterior, **Abrir** el **proyecto de Play** en el editor de su preferencia.
-  - Como ya habiamos visto previamente, **Play Framework** utiliza estrictamente el patrón **Modelo-Vista-Controlador**, por lo que la parte de la vista, donde se desarrolla el despliegue de la interfaz, se lleva a cabo dentro de la carpeta **app/views**.
-  - Para nuestra aplicación, las llamadas a los **servicios Web** las implementaremos del lado del **cliente**, utilizando llamadas asíncronas, por lo que nuestras actividades se centraran bajo **HTML, CSS y JavaScript**.
-- **Copiar** el contenido del archivo en *este repositorio* **main.scala(1).html** archivo del proyecto de **Play** dentro de la ruta **app/views/main.scala.html**.  
-
-- **Abrir** el navegador y escribir **localhost:9000** en la barra de direcciones, debería aparecer algo así:
-
-<img src="http://www.innova4d.mx/wp-content/uploads/2015/04/ajax1.png" width="50%" height="50%"/>
-
-### Explicación:
-
-- **jQuery** es una librería **Javascript** que nos ayuda a simplificar mucho trabajo. para importarla es recomendable utilizar el servicio **CDN** *(content distribution network)* de **Google Hosted Libraries**, ejemplo:
-
-```Javascript
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-```
-
-Nuestra aplicación se dive en 3 partes, **(1) JavaScript**, **(2) CSS**, **(3) HTML**.
-- En la sección de **Javascript** se definen métodos que escuchan eventos y ejecutan llamadas asíncronas para desplegar los resultados en el **DOM**. Estas funciones se implementan de manera simple gracias a **jQuery**.  
-  - Analizar el código **JavaScript**.
-  - Presta atención a la **documentación**.
-  - **Analizar** el método [Click](https://api.jquery.com/click/) de jQuery.
-  - **Analizar** el método [Ajax](http://api.jquery.com/jquery.ajax/) de jQuery.
-  - **Analizar** el método [Append](https://api.jquery.com/append/) de jQuery.
-  - **Explicar** en el reporte las funcionalidades de estos métodos y su uso en la aplicación.
-
-- En la sección **< body >** del código **HTML** se definen algunos elementos del **DOM**, aquí es importante tener en cuenta los atributos **id** y **class** puesto que éstos son referenciados en el código **JavaScript** y **CSS**.
-  - **Analizar** la relación entre el código **HTML** descrito dentro del tag **body** y el código **CSS** y **Javascript**.
-  - **Explicar** en el reporte el uso de **id** y **class** dentro de los elementos **HTML**.
-
-- La sección **CSS** está definida dentro del tag **< style >** en el documento **HTML**, aquí se define el *[look & feel](http://en.wikipedia.org/wiki/Look_and_feel)* de la aplicación.
-  - **Analizar** el código CSS.
-  - **Modificar** el código CSS, añadiendo tu propio estilo a la aplicación.
-    - Una buena referencia es [W3Schools](http://www.w3schools.com/css/default.asp).
-    - [CSS3 Cheat Sheet](http://www.smashingmagazine.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf)
-  - **Explicar** en el reporte los atributos **CSS** utilizados en la aplicación.
-
-### Actividad:
-
-En el documento **main.scala(1).html** de este repositorio se han implementado dos de los **servicios Web** previamente elaborados en la práctica [**Play-WebService**](https://github.com/Innova4DLab/Play-WebService),   (**Multiplicación y Palíndromo**), a partir de ésto deberás:
-  - **Desarrollar** en JavaScript las llamadas asíncronas a los servicios faltantes:
-      - **Convertir** Pesos a Dólares.
-      - **Convertir** grados Centigrados a Farenheit.
-      - **Obtener** la capital dado un país.
-      - **Obtener** la embajada mexicana dado un país.
-  - **Desarrollar** en HTML los elementos necesarios para input/ouput del servicio Web.
-  - **Desarrollar** en CSS un estilo para presentar de manera adecuada los servicios al usuario.
-  - **Explicar** ampliamente en el reporte el desarrollo de la actividad.
-
-# <a name="desarrollo"></a>Actividad 2 - Desarrollando un Mashup
+# <a name="desarrollo"></a>Actividad 2 - Desarrollo
 
 Ahora que ya saben implementar un servicio Web y algunos conceptos básicos de **HTML y CSS** en la actividad 2 vamos a implementar un **Mashup**. Un **Mashup** es un conjunto de servicios, ya sean propios o de terceros que se unen para crear una aplicación completamente diferentes, algunos servicios de terceros pueden son ofrecidos por **Flickr, Wikipedia, WeatherReport, Google Maps**, etc.
 
