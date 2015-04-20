@@ -61,7 +61,7 @@ Algunos **plugins** utilizados en este proyecto, que no son explotados en su tot
 
 - **Less** es un lenguaje que compila a CSS utilizando un precompilador. Less agrega muchas características a CSS, como el uso de variables, funciones, operadores, entro otros. Less permite agregar dinamismo al desarrollo de código CSS, permite la reutilización de código y agrega un poco de orden al código CSS.
 
-- **BootStrap**
+- **BootStrap** es un framework para el front-end, es una colección de herramientas para desarrollar sitios Web responsivos (tanto para dispositivos móviles como para escritorio). Bootstrap incluye templates en HTML y CSS para agregar componentes, como botones, formularios, tipografías y componentes de navegación que pueden utilizarse instantáneamente.
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
 
