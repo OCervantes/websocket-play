@@ -51,14 +51,15 @@ La **aplicación** se encuentra desarrollada en Scala y JavaScript. A continuaci
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/estructureApp.png">
 
 Como se observa, la naturaleza de **Play Framework** nos permite mantener un orden en la
-estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es muy clara, puesto que Play separa las características de la **vista** (HTML, CSS), de la implementación de la
-lógica de los **WebSockets**.
+estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es muy clara, puesto que Play separa las características de la **vista** (HTML, CSS), de la implementación de la lógica de los **WebSockets**. A continuación se muestra la arquitectura de la aplicación.
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
 
 Algunos **plugins** utilizados en este proyecto:
 
 - **Coffee Script** es un lenguaje que compila a JavaScript utilizando un precompilador, es decir antes compilar la aplicación un precompilador compila los archivos .coffee y devulve un JavaScript. Coffee Script permite agregar otras características al lenguaje JavaScript, inspiradas en Ruby, Python y Haskell.
+
+- **Less** es un lenguaje que agrega muchas características a CSS, como el uso de variables, funciones operadores, etc. Less permite agregar dinamismo al desarrollo de código CSS.
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
 
