@@ -28,6 +28,13 @@ object Application extends Controller {
     }
   }
 
+  /*
+   * Método WebSocket, el método implementa un websocket que recibe dos valores,
+   * en caso de que la petición (En algún momento futuro) sea exitosa, se solicita el Id
+   * único de la sesión del usuario, en caso que no exista un ID, el servicio se prohíbe.
+   * En caso que el ID exista se llama al método UserActor.props definido dentro de la carpeta
+   * actores.
+   */
   def ws = WebSocket.tryAcceptWithActor[JsValue, JsValue] { implicit request =>
     Future.successful(request.session.get(UID) match {
       case None => Left(Forbidden)

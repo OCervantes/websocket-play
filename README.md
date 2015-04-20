@@ -42,15 +42,14 @@ $ activator run
 
 Los **WebSockets** utilizan un único canal de comunicación bidireaccinal en donde se asegura una alta velocidad de intercambio de datos en demanda.
 
-La aplicación muestra una simple sesión de **chat anónimo**, si abres otro navegador ó una sesión anónima en **Google Chrome** deberías observar una segunda sesión.
+La **aplicación** muestra una simple sesión de **chat anónimo**, si abres otro navegador ó una sesión anónima en **Google Chrome** deberías observar una segunda sesión.
 
 ### Estructura de la Aplicación
 
-La aplicación se encuentra desarrollada en Scala y JavaScript. A continuación se muestran un diagrama con su estructura:
+La **aplicación** se encuentra desarrollada en Scala y JavaScript. A continuación se muestra un diagrama con la estructura del proyecto:
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/estructureApp.png">
-
-
+<img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo
 

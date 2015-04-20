@@ -1,3 +1,5 @@
+# Código Coffescript que compila a Javascript
+# Llama al WebSocket implementado en el Servidor desde el Cliente
 $ ->
   ws = new WebSocket $("body").data("ws-url")
   ws.onmessage = (event) ->
@@ -7,7 +9,6 @@ $ ->
         $("#board tbody").append("<tr><td>" + message.uid + "</td><td>" + message.msg + "</td></tr>")
       else
         console.log(message)
-
         $("#msgform").submit (event) ->
           event.preventDefault()
           console.log($("#msgtext").val())
