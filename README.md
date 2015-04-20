@@ -31,12 +31,14 @@ $ git clone https://github.com/Innova4DLab/websocket-play.git
 ```Bash
 $ activator run
 ```
-- **Abrir** el navegador en https://github.com/Innova4DLab/websocket-play
+- **Abrir** el navegador en: https://github.com/Innova4DLab/websocket-play
 - **Abrir** la carpeta del proyecto en un editor de su preferencia.
 
 # <a name="analisis"></a>Actividad 1 - Análisis
 
-WebSocket es un protocolo que provee canales de  comunicación bidereccional sobre una conexión TCP única. Desde el 2011 protocolo es un estándar y la API Web está en proceso de estandarizarse por la W3C.
+**WebSocket** es un protocolo que provee canales de  comunicación bidireccional sobre una conexión TCP única. Desde el 2011 protocolo es un estándar y la API Web está en proceso de estandarizarse por la W3C.
+
+<img src="http://www.innova4d.mx/wp-content/uploads/2015/04/httpsocket.png"/>
 
 El objetivo de la práctica es implementar los servicios Web previamente desarrollados en la práctica [**Play-WebService**](https://github.com/Innova4DLab/Play-WebService) en una vista implementada en **Play**, utilizando **JavaScript**.
 
