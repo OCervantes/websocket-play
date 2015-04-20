@@ -121,6 +121,10 @@ En el desarrollo de aplicaciones Web es importante mantener un estilo al program
 
 Recordando que el estilo debe ser siguiendo las guías de [Google](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml) para **JavaScript**.
 
+Algunos **plugins** utilizados en este proyecto:
+
+- **Coffee Script** es un lenguaje que compila a JavaScript utilizando un precompilador, es decir antes compilar la aplicación un precompilador compila los archivos .coffee y devulve un JavaScript. Coffee Script permite agregar otras características al lenguaje JavaScript, inspiradas en Ruby, Python y Haskell.
+
 # <a name="preguntas"></a>Actividad 4 - Preguntas
 
 Responder ampliamente a las siguientes preguntas en el reporte, tomando en cuenta todas las actividades realizadas en este repositorio.
