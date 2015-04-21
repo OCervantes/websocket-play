@@ -128,7 +128,7 @@ Por el momento el **Chat Anónimo** lo puedes usar al mismo tiempo desde diferen
 
 Ahora te toca a tí, dado lo que has aprendido con WebSockets, deberás:
 
-Desarrollar una función JavaScript, que permita enviar parámetros cada 5 segundos, puedes extraer los mensajes de este arreglo:
+- Desarrollar una función JavaScript, que permita enviar parámetros cada 5 segundos, puedes extraer los mensajes de este arreglo:
 
 ```Javascript
 var speech = ["Hello there!","Welcome to the world of Pokémon!",
@@ -139,7 +139,6 @@ var speech = ["Hello there!","Welcome to the world of Pokémon!",
               "Myself… I study Pokémon as a profession",
               "First, what is your name?"];
 ```
-
 
 # <a name="desarrollo"></a>Actividad 3 - Desarrollo Actores
 
