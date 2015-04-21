@@ -139,10 +139,7 @@ var speech = ["Hello there!","Welcome to the world of Pokémon!",
               "Myself… I study Pokémon as a profession",
               "First, what is your name?"];
 ```
-
-Tips:
-
-- La función **window.setInterval** podría ser de utilidad.
+  - La función **window.setInterval** podría ser de utilidad:
 
 ```Javascript
 window.setInterval(function(){
@@ -150,7 +147,11 @@ window.setInterval(function(){
    * Código Websocket
    */
 }, 4000); // Tiempo en milisegundos
+
 ```
+- Además deberás desarrollar la interfaz de usuario de la aplicación, la aplicación final debería verse más o menos así:
+
+
 
 # <a name="desarrollo"></a>Actividad 3 - Servidor-WS-Actores
 
