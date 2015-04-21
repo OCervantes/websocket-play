@@ -75,7 +75,7 @@ A continuación se listan algunas tecnologías utilizadas en este proyecto, que 
 
 - [Scala](http://www.scala-lang.org/) es un lenguaje de programación multi-paradigma diseñado para expresar patrones comunes de programación en forma concisa, elegante y con tipos seguros. Integra sutilmente características de lenguajes funcionales y orientados a objetos. La implementación actual corre en la máquina virtual de Java y es compatible con las aplicaciones Java existentes.
 
-# <a name="desarrollo"></a>Actividad 2 - Desarrollo WebSocket
+# <a name="desarrollo"></a>Actividad 2 - Desarrollo Cliente WebSocket
 
 Ahora que hemos analizado y comprendido la estructura de la aplicación es momento de implementar los **WebSockets**, por ahora no debes preocuparte por los actores. Analizaremos el modelo de actores en una actividad posterior.
 
@@ -152,7 +152,7 @@ window.setInterval(function(){
 }, 4000); // Tiempo en milisegundos
 ```
 
-# <a name="desarrollo"></a>Actividad 3 - Desarrollo Actores
+# <a name="desarrollo"></a>Actividad 3 - Desarrollo Servidor Actores
 
 # <a name="limpieza"></a> Actividad 4 - Limpieza
 En el desarrollo de aplicaciones Web es importante mantener un estilo al programar, por esto deberás:
