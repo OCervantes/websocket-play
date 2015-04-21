@@ -105,7 +105,9 @@ ws.onmessage = function(event) {
   }
 };
 ```
-Este fragmento de código realiza una conexión al **WebSocket** definido en el servidor, cada vez que el servidor envía información, se muestra en el cliente como una fila dentro de una tabla.
+El fragmento de código anterior realiza una conexión al **WebSocket** definido en el servidor, cada vez que el servidor envía información, se muestra en el cliente como una fila dentro de una tabla.
+
+Ahora enviemos datos a través del formulario, de igual forma copia el siguiente fragmento de código.
 
 ### Enviando Datos
 
@@ -155,7 +157,7 @@ window.setInterval(function(){
 
 <img src="http://cl.ly/image/2V3G3U132W3V/antesDesp.png"/ width="75%" height="75%">
 
-- Explica ampliamente en tu reporte los pasos que seguiste para el desarrollo de la aplicación.
+- **Explicar** ampliamente en el reporte los pasos que seguiste para el desarrollo de la aplicación.
 
 # <a name="limpieza"></a> Actividad 4 - Limpieza
 En el desarrollo de aplicaciones Web es importante mantener un estilo al programar, por esto deberás:
@@ -172,7 +174,7 @@ Recordando que el estilo debe ser siguiendo las guías de [Google](https://googl
 Responder ampliamente a las siguientes preguntas en el reporte, tomando en cuenta todas las actividades realizadas en este repositorio.
   - ¿Qué es **WebSocket**?
   - ¿Cuál es la diferencia entre **WebSocket** y **Servicios REST**?
-  - ¿Cómo se establece una conexión con WebSocket?
+  - ¿Cómo se establece una conexión con **WebSocket**?
   - Explica la integración de datos en la interfaz utilizando **JavaScript**.
   - ¿Cómo se implementa el **patrón MVC** en esta aplicación?
     - ¿Qué se hace en el **controlador**?
