@@ -123,7 +123,6 @@ $("#msgform").submit(function(event) {
 Listo, ahora deberías poder comunicarte con el **WebSocket**, pruébalo ahora envíando un mensaje desde el formulario de la interfaz y haciendo click en el botón **Enviar** ¿Qué es lo que pasa aquí?, la siguiente imagen ilustra las acciones del **Websocket:**
 
 <img src="http://cl.ly/image/0v1A1T002l29/reactions.png"/>
-
 Por el momento el **Chat Anónimo** lo puedes usar al mismo tiempo desde diferentes navegadores ó pestañas para experimentar como el WebSocket atiende las peticiones de todos los clientes.
 
 ### Envíar datos
@@ -151,7 +150,12 @@ window.setInterval(function(){
 }, 4000); // Tiempo en milisegundos
 
 ```
-- Además deberás desarrollar la interfaz de usuario de la aplicación, la aplicación final debería verse más o menos así:
+- **Desarrollar** la interfaz de usuario de la aplicación (Con CSS y Html)
+  - La aplicación final debería verse más o menos así:
+
+<img src="http://cl.ly/image/2V3G3U132W3V/antesDesp.png"/>
+
+- Explica ampliamente en tu reporte el desarrollo de la aplicación.
 
 # <a name="limpieza"></a> Actividad 4 - Limpieza
 En el desarrollo de aplicaciones Web es importante mantener un estilo al programar, por esto deberás:
