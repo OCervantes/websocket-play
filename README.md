@@ -142,7 +142,7 @@ var speech = ["Hello there!","Welcome to the world of Pokémon!",
 
 Tips:
 
-- La función window.setInterval podría ser de utilidad.
+- La función **window.setInterval** podría ser de utilidad.
 
 ```Javascript
 window.setInterval(function(){
