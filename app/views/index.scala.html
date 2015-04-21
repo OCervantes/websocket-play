@@ -17,15 +17,14 @@
 	src='@routes.Assets.at("javascripts/index.js")'></script>
 </head>
 
-<body data-ws-url="@routes.Application.ws().webSocketURL()" class="bg-primary" >
+<body data-ws-url="@routes.Application.ws().webSocketURL()">
 	<div class="container ">
 		<div class="row">
 			<div class="col-xs-12">
-				<table id="board" class="col-xs-12 table table-bordered info">
+				<table id="board" class="col-xs-12 table">
 					<thead>
 						<tr>
-							<th class="col-xs-3 text-center" >user</th>
-							<th class="col-xs-9" >message</th>
+							<th class="col-xs-3 text-center">Chat Anónimo</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -34,17 +33,17 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-3 strong text-right ">
-				User @uuid
+			<div class="col-xs-3 userid">
+				Usuario# @uuid
 			</div>
 			<div class="col-xs-9">
 				<form id="msgform" class="form-horizontal" >
 					<div class="col-xs-8">
 						<input id="msgtext" type="text"  class="form-control"
-						placeholder="please type a message" />
+						placeholder="Por favor, escribe un mensaje..." />
 					</div>
 					<div class="col-xs-1">
-						<button type="submit" class="btn btn-default ">Submit</button>
+						<button type="submit" class="btn btn-primary ">Enviar</button>
 					</div>
 				</form>
 			</div>
