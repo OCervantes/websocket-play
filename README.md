@@ -43,8 +43,6 @@ $ activator run
 
 Los **WebSockets** utilizan un único canal de comunicación bidireaccinal en donde se asegura una alta velocidad de intercambio de datos en demanda.
 
-La **aplicación** muestra una simple sesión de **chat anónimo**, si abres otro navegador ó una sesión anónima en **Google Chrome** deberías observar una segunda sesión.
-
 ### Estructura de la Aplicación
 
 La **aplicación** se encuentra desarrollada en Scala y JavaScript. A continuación se muestra un diagrama con la estructura del proyecto:
@@ -56,7 +54,7 @@ estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es
 
 <img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
 
-Ahora que has observado las características de la aplicación, explica el resultado de tu análisis ampliamente en tu reporte.
+Ahora que has observado las características de la aplicación, explica el resultado de tu análisis ampliamente en tu reporte respondiendo a las siguientes preguntas.
 
 - **Analizar** la estructura del proyecto en Play Framework.
   - ¿Cuál es el objetivo de la carpeta **App**?
@@ -64,6 +62,7 @@ Ahora que has observado las características de la aplicación, explica el resul
 - **Analizar** la arquitectura Cliente-Servidor del proyecto.
   - **Identificar** el Cliente y explicar su objetivo.
   - **Identificar** el Servidor y explicar su objetivo.
+- ¿Cómo se relacionan conf/routes y app/controllers/Application.scala?
 - **Analizar** la vista (carpeta Views en Play)
   - ¿Cuál es la utilidad del atributo **data-ws-url**?
 
@@ -179,6 +178,7 @@ Responder ampliamente a las siguientes preguntas en el reporte, tomando en cuent
   - ¿Cómo se implementa el **patrón MVC** en esta aplicación?
     - ¿Qué se hace en el **controlador**?
     - ¿Cómo se implementa la **vista**?
+  - Explica el comportamiento del WebSocket cuando envías mensajes cada 5 segundos al servidor.
 
 **Notas:** Explica ampliamente y justifica tus respuestas.
 
