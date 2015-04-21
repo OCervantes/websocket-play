@@ -77,9 +77,52 @@ A continuación se listan algunas tecnologías utilizadas en este proyecto, que 
 
 # <a name="desarrollo"></a>Actividad 2 - Desarrollo WebSocket
 
-Ahora que hemos analizado y comprendido la estructura de la aplicación es momento de implementar los **WebSockets**.
+Ahora que hemos analizado y comprendido la estructura de la aplicación es momento de implementar los **WebSockets**, por ahora no debes preocuparte por los actores. Analizaremos el modelo de actores en una actividad posterior.
 
-# <a name="limpieza"></a> Actividad 3 - Limpieza
+El objetivo de la Actividad 2 es comprender la implementación de WebSockets desde el lado del Cliente, es decir, cómo se envían mensajes a un Servidor y su implementación en JavaScript. Desarrollando un pequeño **Chat Anónimo**.
+
+Como podrás observar en la carpeta **assets/javascripts** se encuentra un archivo **index.js** el cuál se encuentra vacíó. Como habras notado en tu análisis, ya se encuentra desarrollado el código del WebSocket en Scala, de hecho, si observas el archivo conf/routes podrás observar como se ha definido un servicio REST de la siguiente manera:
+
+```Bash
+GET     /ws                         controllers.Application.ws
+```
+
+Este es el Servicio del WebSocket, listo para ser implementado en el cliente por lo que podemos comenzar a utilizarlo directamente en nuestra aplicación. Para utilizar el Websocket deberás utilizar la API Websocket.
+
+```Javascript
+var ws;
+ws = new WebSocket($("body").data("ws-url")); //Toma La URL del Tag en Body
+ws.onmessage = function(event) {
+  var message;
+  message = JSON.parse(event.data);
+  switch (message.type) {
+    case "message":
+      return $("#board tbody").append("<tr><td><div class='meta'>Alguien dice: </div> "+ message.msg + "</td></tr>");
+    default:
+      return console.log(message);
+  }
+};
+```
+
+```Javascript
+return $("#msgform").submit(function(event) {
+  event.preventDefault();
+  console.log($("#msgtext").val());
+  ws.send(JSON.stringify({
+    msg: $("#msgtext").val()
+  }));
+  return $("#msgtext").val("");
+});
+```
+Listo, ahora deberías poder comunicarte con el **WebSocket**, pruébalo ahora envíando un mensaje desde el formulario de la interfaz y haciendo click en el botón **Enviar** ¿Qué es lo que pasa aquí?, la siguiente imagen ilustra las acciones del **Websocket:**
+
+Por el momento el **Chat Anónimo** lo puedes usar al mismo tiempo desde diferentes navegadores ó pestañas para experimentar como el WebSocket atiende las peticiones de todos los clientes.
+
+
+
+# <a name="desarrollo"></a>Actividad 3 - Desarrollo Actores
+
+# <a name="limpieza"></a> Actividad 4 - Limpieza
 En el desarrollo de aplicaciones Web es importante mantener un estilo al programar, por esto deberás:
 - **Nombrar** adecuadamente las variables y métodos.
 - **Agregar** un comentario antes de un método para indicar su funcionamiento.
@@ -89,7 +132,7 @@ En el desarrollo de aplicaciones Web es importante mantener un estilo al program
 
 Recordando que el estilo debe ser siguiendo las guías de [Google](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml) para **JavaScript**.
 
-# <a name="preguntas"></a>Actividad 4 - Preguntas
+# <a name="preguntas"></a>Actividad 5 - Preguntas
 
 Responder ampliamente a las siguientes preguntas en el reporte, tomando en cuenta todas las actividades realizadas en este repositorio.
   - ¿Qué es un **Mashup**?

@@ -1,5 +1,5 @@
 /*
- * Código puro JavaScript, para conectarse al WebSocket
+ * Aquí se escribirá código JavaScript puro, para conectarse al WebSocket
  */
 
 /*
@@ -21,6 +21,9 @@ $(function() {
     }
   };
 
+  /*
+   * ¡Vamos a Simular a otra persona enviándo mensajes!
+   */
   var speech = ["Hello there!","Welcome to the world of Pokémon!",
                 "My name is Oak!","People call me the Pokémon Prof!",
                 "This world is inhabited by creatures called Pokémon!",
