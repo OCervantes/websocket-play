@@ -170,19 +170,14 @@ Recordando que el estilo debe ser siguiendo las guías de [Google](https://googl
 # <a name="preguntas"></a>Actividad 5 - Preguntas
 
 Responder ampliamente a las siguientes preguntas en el reporte, tomando en cuenta todas las actividades realizadas en este repositorio.
-  - ¿Qué es un **Mashup**?
-  - ¿Cuál es la diferencia entre **Get** y **Post**?
-  - Describe la utilidad de Ajax para llamar **servicios Web**.
-  - Explica la utilidad del formato **Json**.
-    - Explica la diferencia entre **Json** y **Jsonp**.
-  - Explica la **separación de asuntos** en términos de desarrollo Web.
-  - ¿Cómo se implementa el **patrón MVC** en **Play**?
+  - ¿Qué es **WebSocket**?
+  - ¿Cuál es la diferencia entre **WebSocket** y **Servicios REST**?
+  - ¿Cómo se establece una conexión con WebSocket?
+  - Explica la integración de datos en la interfaz utilizando **JavaScript**.
+  - ¿Cómo se implementa el **patrón MVC** en esta aplicación?
     - ¿Qué se hace en el **controlador**?
     - ¿Cómo se implementa la **vista**?
-    - ¿Cuál es la utilidad de la carpeta **public** en **Play**?
-  - ¿Cómo se implementa la API de Google Maps?
-    - ¿Por qué su implementación es diferente?
 
 **Notas:** Explica ampliamente y justifica tus respuestas.
 
-**Cualquier comentario o duda, discutir en la sección de [issues](https://github.com/Innova4DLab/webservices-mashup/issues).**
+**Cualquier comentario o duda, discutir en la sección de [issues](https://github.com/Innova4DLab/websocket-play/issues).**
