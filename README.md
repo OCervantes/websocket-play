@@ -155,7 +155,7 @@ window.setInterval(function(){
 
 <img src="http://cl.ly/image/2V3G3U132W3V/antesDesp.png"/ width="75%" height="75%">
 
-- Explica ampliamente en tu reporte el desarrollo de la aplicación.
+- Explica ampliamente en tu reporte los pasos que seguiste para el desarrollo de la aplicación.
 
 # <a name="limpieza"></a> Actividad 4 - Limpieza
 En el desarrollo de aplicaciones Web es importante mantener un estilo al programar, por esto deberás:
