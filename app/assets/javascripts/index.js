@@ -9,7 +9,7 @@
  */
 $(function() {
   var ws;
-  ws = new WebSocket($("body").data("ws-url")); //Se toma La URL del Tag en Body
+  ws = new WebSocket($("body").data("ws-url")); //Se toma La URL del Tag en Body "ws://localhost:9000/ws"
   ws.onmessage = function(event) {
     var message;
     message = JSON.parse(event.data);
@@ -43,7 +43,7 @@ $(function() {
    * Cuando se envía un mensaje desde el Cliente al servidor,
    * Se envía el mensaje por WebSocket.
    */
-  return $("#msgform").submit(function(event) {
+  $("#msgform").submit(function(event) {
     event.preventDefault();
     console.log($("#msgtext").val());
     ws.send(JSON.stringify({
@@ -51,4 +51,5 @@ $(function() {
     }));
     return $("#msgtext").val("");
   });
+  
 });

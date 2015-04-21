@@ -89,6 +89,8 @@ GET     /ws                         controllers.Application.ws
 
 Este es el Servicio del **WebSocket**, listo para ser implementado en el cliente, por lo que podemos comenzar a utilizarlo directamente en nuestra aplicación. Para utilizar el Websocket deberás utilizar la API Websocket. Para comenzar estableceremos el canal de comunicación entre el cliente y el servidor.
 
+### Recibiendo Datos
+
 ```Javascript
 var ws;
 ws = new WebSocket($("body").data("ws-url")); //Se toma La URL del Tag en Body
@@ -103,10 +105,12 @@ ws.onmessage = function(event) {
   }
 };
 ```
-Este fragmento de código realiza una conexión al **WebSocket** definido en el servidor, cada vez que el servidor envía información, se muestra en el cliente dentro de una tabla.
+Este fragmento de código realiza una conexión al **WebSocket** definido en el servidor, cada vez que el servidor envía información, se muestra en el cliente como una fila dentro de una tabla.
+
+### Enviando Datos
 
 ```Javascript
-return $("#msgform").submit(function(event) {
+$("#msgform").submit(function(event) {
   event.preventDefault();
   console.log($("#msgtext").val());
   ws.send(JSON.stringify({
@@ -115,10 +119,26 @@ return $("#msgform").submit(function(event) {
   return $("#msgtext").val("");
 });
 ```
+
 Listo, ahora deberías poder comunicarte con el **WebSocket**, pruébalo ahora envíando un mensaje desde el formulario de la interfaz y haciendo click en el botón **Enviar** ¿Qué es lo que pasa aquí?, la siguiente imagen ilustra las acciones del **Websocket:**
 
 Por el momento el **Chat Anónimo** lo puedes usar al mismo tiempo desde diferentes navegadores ó pestañas para experimentar como el WebSocket atiende las peticiones de todos los clientes.
 
+### Envíar datos
+
+Ahora te toca a tí, dado lo que has aprendido con WebSockets, deberás:
+
+Desarrollar una función JavaScript, que permita enviar parámetros cada 5 segundos, puedes extraer los mensajes de este arreglo:
+
+```Javascript
+var speech = ["Hello there!","Welcome to the world of Pokémon!",
+              "My name is Oak!","People call me the Pokémon Prof!",
+              "This world is inhabited by creatures called Pokémon!",
+              "For some people, Pokémon are pets",
+              "Other use them for fights",
+              "Myself… I study Pokémon as a profession",
+              "First, what is your name?"];
+```
 
 
 # <a name="desarrollo"></a>Actividad 3 - Desarrollo Actores
