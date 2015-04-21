@@ -113,7 +113,7 @@ Este fragmento de código realiza una conexión al **WebSocket** definido en el 
 $("#msgform").submit(function(event) {
   event.preventDefault();
   console.log($("#msgtext").val());
-  ws.send(JSON.stringify({
+  ws.send(JSON.stringify({ //Enviar el mensaje en el formulario como JSON.
     msg: $("#msgtext").val()
   }));
   return $("#msgtext").val("");
