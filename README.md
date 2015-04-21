@@ -153,10 +153,6 @@ window.setInterval(function(){
 ```
 - Además deberás desarrollar la interfaz de usuario de la aplicación, la aplicación final debería verse más o menos así:
 
-
-
-# <a name="desarrollo"></a>Actividad 3 - Servidor-WS-Actores
-
 # <a name="limpieza"></a> Actividad 4 - Limpieza
 En el desarrollo de aplicaciones Web es importante mantener un estilo al programar, por esto deberás:
 - **Nombrar** adecuadamente las variables y métodos.
