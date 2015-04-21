@@ -9,13 +9,13 @@
  */
 $(function() {
   var ws;
-  ws = new WebSocket($("body").data("ws-url")); //Toma La URL del Tag en Body
+  ws = new WebSocket($("body").data("ws-url")); //Se toma La URL del Tag en Body
   ws.onmessage = function(event) {
     var message;
     message = JSON.parse(event.data);
     switch (message.type) {
       case "message":
-        return $("#board tbody").append("<tr><td><div class='meta'>Alguien dice: </div> "+ message.msg + "</td></tr>");
+        return $("#board tbody").append("<tr><td>"+ message.msg + "</td></tr>");
       default:
         return console.log(message);
     }

@@ -81,28 +81,29 @@ Ahora que hemos analizado y comprendido la estructura de la aplicación es momen
 
 El objetivo de la Actividad 2 es comprender la implementación de WebSockets desde el lado del Cliente, es decir, cómo se envían mensajes a un Servidor y su implementación en JavaScript. Desarrollando un pequeño **Chat Anónimo**.
 
-Como podrás observar en la carpeta **assets/javascripts** se encuentra un archivo **index.js** el cuál se encuentra vacíó. Como habras notado en tu análisis, ya se encuentra desarrollado el código del WebSocket en Scala, de hecho, si observas el archivo conf/routes podrás observar como se ha definido un servicio REST de la siguiente manera:
+Como podrás observar en la carpeta **assets/javascripts** se encuentra un archivo **index.js** el cuál se encuentra vacío. Como habrás notado en tu análisis, ya se encuentra (mayormente) desarrollado el código del WebSocket en Scala, de hecho, si observas el archivo conf/routes podrás observar como se ha definido un servicio REST de la siguiente manera:
 
 ```Bash
 GET     /ws                         controllers.Application.ws
 ```
 
-Este es el Servicio del WebSocket, listo para ser implementado en el cliente por lo que podemos comenzar a utilizarlo directamente en nuestra aplicación. Para utilizar el Websocket deberás utilizar la API Websocket.
+Este es el Servicio del **WebSocket**, listo para ser implementado en el cliente, por lo que podemos comenzar a utilizarlo directamente en nuestra aplicación. Para utilizar el Websocket deberás utilizar la API Websocket. Para comenzar estableceremos el canal de comunicación entre el cliente y el servidor.
 
 ```Javascript
 var ws;
-ws = new WebSocket($("body").data("ws-url")); //Toma La URL del Tag en Body
+ws = new WebSocket($("body").data("ws-url")); //Se toma La URL del Tag en Body
 ws.onmessage = function(event) {
   var message;
   message = JSON.parse(event.data);
   switch (message.type) {
     case "message":
-      return $("#board tbody").append("<tr><td><div class='meta'>Alguien dice: </div> "+ message.msg + "</td></tr>");
+      return $("#board tbody").append("<tr><td>"+ message.msg + "</td></tr>");
     default:
       return console.log(message);
   }
 };
 ```
+Este fragmento de código realiza una conexión al **WebSocket** definido en el servidor, cada vez que el servidor envía información, se muestra en el cliente dentro de una tabla.
 
 ```Javascript
 return $("#msgform").submit(function(event) {
