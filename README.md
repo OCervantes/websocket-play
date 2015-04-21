@@ -126,9 +126,9 @@ Por el momento el **Chat Anónimo** lo puedes usar al mismo tiempo desde diferen
 
 ### Envíar datos
 
-Ahora te toca a tí, dado lo que has aprendido con WebSockets, deberás:
+Ahora te toca a tí, dado lo que has aprendido con WebSockets, deberás simular a otra persona enviándo mensajes:
 
-- **Desarrollar** una función JavaScript, que permita enviar parámetros a través del WebSocket al servidor cada 5 segundos, puedes extraer los mensajes de este arreglo:
+- **Desarrollar** una función JavaScript, que permita enviar mensajes a través del WebSocket al servidor cada 5 segundos, puedes extraer los mensajes de este arreglo:
 
 ```Javascript
 var speech = ["Hello there!","Welcome to the world of Pokémon!",
