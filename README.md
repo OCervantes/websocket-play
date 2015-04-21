@@ -87,7 +87,7 @@ Como podrás observar en la carpeta **assets/javascripts** se encuentra un archi
 GET     /ws                         controllers.Application.ws
 ```
 
-Este es el Servicio del **WebSocket**, listo para ser implementado en el cliente, por lo que podemos comenzar a utilizarlo directamente en nuestra aplicación. Para utilizar el Websocket deberás utilizar la API Websocket. Para comenzar estableceremos el canal de comunicación entre el cliente y el servidor.
+Este es el Servicio del **WebSocket**, listo para ser implementado en el cliente, por lo que podemos comenzar a utilizarlo directamente en nuestra aplicación. Para comenzar estableceremos el canal de comunicación entre el cliente y el servidor.
 
 ### Recibiendo Datos
 
