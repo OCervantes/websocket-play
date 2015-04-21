@@ -1,6 +1,6 @@
 # WebSocket-Play
 
->Esta es una simple aplicación que implementa un chat anónimo, utilizando webSockets, además se ilustra el uso de actores con Akka y Play Framework.
+>Esta es una simple aplicación que implementa un chat anónimo, utilizando webSockets, además se ilustra el uso de actores con Akka y Play Framework. La especificación WebSocket define un API que establece conexiones "socket" entre un navegador web y un servidor. Dicho con otras palabras: existe una conexión persistente entre el cliente y el servidor, y ambas partes pueden empezar a enviar datos en cualquier momento.
 
 # Contenido
 - **[Antes de comenzar](#antesde)**
@@ -64,18 +64,20 @@ Ahora que has observado las características de la aplicación, explica el resul
 - **Analizar** la arquitectura Cliente-Servidor del proyecto.
   - **Identificar** el Cliente y explicar su objetivo.
   - **Identificar** el Servidor y explicar su objetivo.
+- **Analizar** la vista (carpeta Views en Play)
+  - ¿Cuál es la utilidad del atributo **data-ws-url**?
 
-A continuación se listan algunos **plugins** utilizados en este proyecto, que no son explotados en su totalidad pero son interesantes de analizar y considerar para futuros desarrollos:
+A continuación se listan algunas tecnologías utilizadas en este proyecto, que no son explotadas en su totalidad pero son interesantes de analizar y considerar para futuros desarrollos:
 
-- **Coffee Script** es un lenguaje que compila a **JavaScript** utilizando un precompilador, es decir, antes de compilar la aplicación un precompilador compila los archivos .coffee y devuelve un **JavaScript**. Coffee Script permite agregar características que serían difíciles de implementar en JavaScript, dichas características están inspiradas en Ruby, Python y Haskell.
+- [Bootstrap](http://getbootstrap.com/) es un framework para el **front-end**, es una colección de herramientas para desarrollar sitios Web responsivos (tanto para dispositivos móviles como para escritorio). **Bootstrap** incluye templates en HTML y CSS para agregar componentes, como botones, formularios, tipografías y componentes de navegación que pueden utilizarse instantáneamente.
 
-- **Less** es un lenguaje que compila a CSS utilizando un precompilador. Less agrega muchas características a CSS, como el uso de variables, funciones, operadores, entro otros. Less permite agregar dinamismo al desarrollo de código CSS, permite la reutilización de código y agrega un poco de orden al código CSS.
+- [Akka](http://akka.io/) Es un toolkit open-source para simplificar la construcción de aplicaciones concurrentes y distribuídas bajo la JVM. **Akka** soporta diferentes modelos de programación para implementar concurrencia, especialmente el modelo basado en actores.
 
-- **Bootstrap** es un framework para el front-end, es una colección de herramientas para desarrollar sitios Web responsivos (tanto para dispositivos móviles como para escritorio). Bootstrap incluye templates en HTML y CSS para agregar componentes, como botones, formularios, tipografías y componentes de navegación que pueden utilizarse instantáneamente.
+- [Scala](http://www.scala-lang.org/) es un lenguaje de programación multi-paradigma diseñado para expresar patrones comunes de programación en forma concisa, elegante y con tipos seguros. Integra sutilmente características de lenguajes funcionales y orientados a objetos. La implementación actual corre en la máquina virtual de Java y es compatible con las aplicaciones Java existentes.
 
-# <a name="desarrollo"></a>Actividad 2 - Desarrollo
+# <a name="desarrollo"></a>Actividad 2 - Desarrollo WebSocket
 
-Ahora que hemos analizado y comprendido la estructura de la aplicación es momento de implementar los WebSockets.
+Ahora que hemos analizado y comprendido la estructura de la aplicación es momento de implementar los **WebSockets**.
 
 # <a name="limpieza"></a> Actividad 3 - Limpieza
 En el desarrollo de aplicaciones Web es importante mantener un estilo al programar, por esto deberás:

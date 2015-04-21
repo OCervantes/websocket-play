@@ -17,7 +17,13 @@
 	src='@routes.Assets.at("javascripts/index.js")'></script>
 </head>
 
+<!-- En Body se define un atributo data-ws-url,
+en donde se encuentra definido el websocket en el servidor. -->
+
 <body data-ws-url="@routes.Application.ws().webSocketURL()">
+
+	<!-- Contenedor principal del chat y encabezado -->
+	<!-- Aquí se hará Append a los mensajes de Chat con JavaScript -->
 	<div class="container ">
 		<div class="row">
 			<div class="col-xs-12">
@@ -32,9 +38,11 @@
 				</table>
 			</div>
 		</div>
+
+		<!-- Mostrar el ID del Usuario y Enviar un mensaje -->
 		<div class="row">
 			<div class="col-xs-3 userid">
-				Usuario# @uuid
+				Anónimo
 			</div>
 			<div class="col-xs-9">
 				<form id="msgform" class="form-horizontal" >
@@ -48,6 +56,7 @@
 				</form>
 			</div>
 		</div>
+
 	</div>
 </body>
 </html>
