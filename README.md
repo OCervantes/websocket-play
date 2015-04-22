@@ -31,7 +31,7 @@ $ git clone https://github.com/Innova4DLab/websocket-play.git
 ```Bash
 $ activator run
 ```
-- **Abrir** el navegador en: https://github.com/Innova4DLab/websocket-play
+- **Abrir** el navegador en: http://localhost:9000/
   - Por el momento deberías ver **errores al compilar la aplicación**, puesto que se encuentra incompleta, continua la actividad para resolver estos problemas.
 - **Abrir** la carpeta del proyecto en un editor de su preferencia.
 
