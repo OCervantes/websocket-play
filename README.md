@@ -39,7 +39,7 @@ $ activator run
 
 **WebSocket** es un protocolo que provee canales de  comunicación bidireccional sobre una conexión TCP única. Desde el 2011 el protocolo es un estándar y la API Web está en proceso de estandarizarse por la W3C.
 
-<img src="http://www.innova4d.mx/wp-content/uploads/2015/04/httpsocket.png"/>
+<img src="httpsocket.png"/>
 
 Los **WebSockets** utilizan un único canal de comunicación bidireaccinal en donde se asegura una alta velocidad de intercambio de datos en demanda.
 
@@ -47,12 +47,12 @@ Los **WebSockets** utilizan un único canal de comunicación bidireaccinal en do
 
 La **aplicación** se encuentra desarrollada en Scala y JavaScript. A continuación se muestra un diagrama con la estructura del proyecto:
 
-<img src="http://www.innova4d.mx/wp-content/uploads/2015/04/estructureApp.png">
+<img src="estructureApp.png">
 
 La naturaleza de **Play Framework** nos permite mantener un orden en la
 estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es muy claro, puesto que Play separa las características de la **vista** (HTML, CSS), de la implementación de  los **WebSockets**. Cabe mencionar que debido a la naturaleza de Play para desarrollar fácilmente métodos REST a partir del controlador es muy fácil desarrollar servicios como WebSocket. A continuación se muestra la arquitectura de la aplicación.
 
-<img src="http://www.innova4d.mx/wp-content/uploads/2015/04/socket.png">
+<img src="socket.png">
 
 Ahora que has observado las características de la aplicación, explica el resultado de tu análisis ampliamente en tu reporte respondiendo a las siguientes preguntas.
 
@@ -123,7 +123,7 @@ $("#msgform").submit(function(event) {
 
 Listo, ahora deberías poder comunicarte con el **WebSocket**, pruébalo ahora envíando un mensaje desde el formulario de la interfaz y haciendo click en el botón **Enviar** ¿Qué es lo que pasa aquí?, la siguiente imagen ilustra las acciones del **Websocket:**
 
-<img src="http://cl.ly/image/0v1A1T002l29/reactions.png"/>
+<img src="reactions.png"/>
 Por el momento el **Chat Anónimo** lo puedes usar al mismo tiempo desde diferentes navegadores ó pestañas para experimentar como el WebSocket atiende las peticiones de todos los clientes.
 
 ### Envíar datos
@@ -154,7 +154,7 @@ window.setInterval(function(){
 - **Desarrollar** la interfaz de usuario de la aplicación (Con CSS y Html)
   - La aplicación final debería verse más o menos así:
 
-<img src="http://cl.ly/image/2V3G3U132W3V/antesDesp.png"/ width="75%" height="75%">
+<img src="antesDesp.png"/ width="75%" height="75%">
 
 - **Explicar** ampliamente en el reporte los pasos que seguiste para el desarrollo de la aplicación.
 
