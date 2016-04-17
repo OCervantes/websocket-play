@@ -52,7 +52,7 @@ La **aplicación** se encuentra desarrollada en Scala y JavaScript. A continuaci
 La naturaleza de **Play Framework** nos permite mantener un orden en la
 estructura de la aplicación. El uso del patrón **Modelo Vista Controlador** es muy claro, puesto que Play separa las características de la **vista** (HTML, CSS), de la implementación de  los **WebSockets**. Cabe mencionar que debido a la naturaleza de Play para desarrollar fácilmente métodos REST a partir del controlador es muy fácil desarrollar servicios como WebSocket. A continuación se muestra la arquitectura de la aplicación.
 
-<img src="socket.png">
+<img src="httpsocket.png">
 
 Ahora que has observado las características de la aplicación, explica el resultado de tu análisis ampliamente en tu reporte respondiendo a las siguientes preguntas.
 
