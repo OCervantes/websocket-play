@@ -80,7 +80,7 @@ Ahora que hemos analizado y comprendido la estructura de la aplicación es momen
 
 El objetivo de la Actividad 2 es comprender la implementación de **WebSockets** desde el lado del Cliente, es decir, cómo se envían mensajes a un Servidor y su implementación en JavaScript. Desarrollando un pequeño **Chat Anónimo**.
 
-Como podrás observar en la carpeta **assets/javascripts** se encuentra un archivo **index.js** el cuál se encuentra vacío. Como habrás notado en tu análisis, ya se encuentra (mayormente) desarrollado el código del WebSocket en Scala, de hecho, si observas el archivo conf/routes podrás observar como se ha definido un servicio REST de la siguiente manera:
+Como podrás observar en la carpeta **assets/javascripts** se encuentra un archivo **index.js** el cual se encuentra vacío. Como habrás notado en tu análisis, ya se encuentra (mayormente) desarrollado el código del WebSocket en Scala, de hecho, si observas el archivo conf/routes podrás observar como se ha definido un servicio REST de la siguiente manera:
 
 ```Bash
 GET     /ws                         controllers.Application.ws
