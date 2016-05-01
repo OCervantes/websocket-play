@@ -121,12 +121,12 @@ $("#msgform").submit(function(event) {
 });
 ```
 
-Listo, ahora deberías poder comunicarte con el **WebSocket**, pruébalo ahora envíando un mensaje desde el formulario de la interfaz y haciendo click en el botón **Enviar** ¿Qué es lo que pasa aquí?, la siguiente imagen ilustra las acciones del **Websocket:**
+Listo, ahora deberías poder comunicarte con el **WebSocket**, pruébalo ahora enviando un mensaje desde el formulario de la interfaz y haciendo click en el botón **Enviar** ¿Qué es lo que pasa aquí?, la siguiente imagen ilustra las acciones del **Websocket:**
 
 <img src="reactions.png"/>
 Por el momento el **Chat Anónimo** lo puedes usar al mismo tiempo desde diferentes navegadores ó pestañas para experimentar como el WebSocket atiende las peticiones de todos los clientes.
 
-### Envíar datos
+### Enviar datos
 
 Ahora te toca a tí, dado lo que has aprendido con WebSockets, deberás simular a otra persona enviándo mensajes:
 
@@ -171,7 +171,7 @@ Recordando que el estilo debe ser siguiendo las guías de [Google](https://googl
 # <a name="preguntas"></a>Actividad 5 - Preguntas
 
 Responder ampliamente a las siguientes preguntas en el reporte, tomando en cuenta todas las actividades realizadas en este repositorio.
-  - ¿Qué es **WebSocket**?
+  - ¿Qué es un  **WebSocket**?
   - ¿Cuál es la diferencia entre **WebSocket** y **Servicios REST**?
   - ¿Cómo se establece una conexión con **WebSocket**?
   - Explica la integración de datos en la interfaz utilizando **JavaScript**.
